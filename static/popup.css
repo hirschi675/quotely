@@ -1,0 +1,52 @@
+.main-wrapper {
+  background-color: rgb(223, 223, 223);
+  height: 400px;
+  width: 400px;
+  padding: 50px;
+  border: solid 3px black;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  padding: 10px;
+  color: white;
+  font-size: 50px;
+  background-color: #2e2e2e8c;
+}
+
+.arrow {
+  margin-top: 45%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-right {
+  right: 10px;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-img {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+
+.rotate-arrow {
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and older Chrome */
+  transform: rotate(180deg); /* Standard syntax */
+}
