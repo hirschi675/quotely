@@ -1,7 +1,7 @@
 import { createClient } from 'pexels';
 import Quotes from "randomquote-api";
 
-const client = createClient('NLM55PpTIafL6OOEPHTYf6QHrvwDXotdWGzig9Cyzm5l4xiYb8UqL5ve');
+const client = createClient('YOUR PEXELS API KEY GOES HERE');
 const query = 'Natural Background';
 var i = 1;
 var wrapper = document.getElementById("main-wrapper");
