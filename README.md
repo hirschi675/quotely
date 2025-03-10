@@ -1,15 +1,13 @@
 # quotely
 Google Chrome extension to show inspirational quotes for the day.
 
-First sign up for an api key here
-https://www.pexels.com/api/
-
-These are the commands for the npm modules if needed
-- npm i pexels
-- npm i --D webpack webpack-cli
-- npm i --D copy-webpack-plugin
-- npm i randomquote-api
-- npm install --save-dev @babel/core babel-loader @babel/preset-env
-
-Then you will need to replace your api key in the popup.js file 
-Then your google chrome extension should work if you upload it to chrome://extensions/
+Chrome Extension Steps
+1. Clone Repo
+2. Run command: npm install
+3. sign up for an api key here https://www.pexels.com/api/
+4. Replace your api key in the popup.js file with your new api key
+5. Run command: npm run build
+6. Go to chrome://extensions/
+7. Make sure developer mode is toggled on in the top right
+8. Click load unpacked and select the dist folder in your project
+9. Run the extension and enjoy the quotes
